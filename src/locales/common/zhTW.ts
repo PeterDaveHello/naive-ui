@@ -16,7 +16,7 @@ const zhTW: NLocale = {
     placeholder: '請選擇',
     loading: '載入中',
     loadingRequiredMessage: (label: string): string =>
-      `載入全部 ${label} 的子節點後才可選中`
+      `載入全部 ${label} 的子節點後才可選擇`
   },
   Time: {
     dateFormat: 'yyyy-MM-dd',
@@ -55,11 +55,11 @@ const zhTW: NLocale = {
     checkTableAll: '選擇全部表格資料',
     uncheckTableAll: '取消選擇全部表格資料',
     confirm: '確認',
-    clear: '重置'
+    clear: '重設'
   },
   LegacyTransfer: {
-    sourceTitle: '源項',
-    targetTitle: '目標項'
+    sourceTitle: '來源',
+    targetTitle: '目的'
   },
   Transfer: {
     selectAll: '全選',
@@ -103,9 +103,9 @@ const zhTW: NLocale = {
     title: '主題編輯器',
     clearAllVars: '清除全部變數',
     clearSearch: '清除搜尋',
-    filterCompName: '過濾組件名',
-    filterVarName: '過濾變數名',
-    import: '導入',
+    filterCompName: '過濾組件名稱',
+    filterVarName: '過濾變數名稱',
+    import: '匯入',
     export: '匯出',
     restore: '恢復預設'
   },
